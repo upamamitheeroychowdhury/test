@@ -1,0 +1,52 @@
+body {
+	margin: 0;
+}
+
+.background {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+		url(./src/background.png);
+	padding-top: 50px;
+	padding-left: 100px;
+	padding-bottom: 120px;
+}
+
+#logo {
+	width: 10%;
+}
+
+#title {
+	margin-top: 200px;
+	color: #fff;
+	font-family: Arial;
+	font-size: 75px;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+
+#title-big {
+	font-family: Arial;
+	font-size: 200px;
+	font-weight: bold;
+	color: #eb1c22;
+	letter-spacing: 5px;
+}
+
+.link {
+	display: block;
+	color: #fff;
+	font-family: Arial;
+	font-size: 20px;
+	margin-top: 30px;
+	margin-left: 10px;
+	letter-spacing: 1px;
+}
+
+.link svg {
+	fill: white;
+	width: 15px;
+	transition: all 0.3s ease-in-out;
+	vertical-align: bottom;
+}
+.link:hover svg {
+	margin-left: 15px;
+}
